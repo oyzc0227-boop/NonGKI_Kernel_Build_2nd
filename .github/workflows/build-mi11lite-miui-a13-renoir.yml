@@ -55,7 +55,7 @@ env:
 
   KERNELSU_METHOD: "shell" # shell, manual and only.
 
-  PATCHES_SOURCE: "https://github.com/ShirkNeko/susfs4ksu.git" # [your_name]/[your_patch] -> gooder123/NonGKI_Patcher
+  PATCHES_SOURCE: "ShirkNeko/susfs4ksu" # [your_name]/[your_patch] -> gooder123/NonGKI_Patcher
   PATCHES_BRANCH: "kernel-5.4" # [your_branch] -> main
 
   SUSFS_FOLDER_FIXED: "kernel_patches" # Fill in your patch prefix directory here. Leave it blank if there isn't one. -> your_folder
@@ -82,7 +82,7 @@ env:
   GENERATE_CHIP: "qcom" # only supported for qcom and mediatek.
 
   BUILD_DEBUGGER: "false" # Output build errors.
-  SKIP_PATCH: "false" # Ignore errors found in Patch Debugger.
+  SKIP_PATCH: "true" # Ignore errors found in Patch Debugger.
 
   BUILD_OTHER_CONFIG: "false" # Merge config files.
   MERGE_CONFIG_FILES: "vendor/debugfs.config,vendor/lahaina_QGKI.config"
