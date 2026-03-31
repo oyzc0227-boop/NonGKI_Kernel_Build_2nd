@@ -15,8 +15,8 @@ env:
   KERNEL_SOURCE : "https://github.com/MiCode/Xiaomi_Kernel_OpenSource.git"
   KERNEL_BRANCH : "merlin-r-oss"
 
-  CLANG_SOURCE : "https://github.com/MrShockWAVEog/Google-Clang-Mirror/releases/download/clang-r584948b-aosp/clang.tar.gz"
-  CLANG_BRANCH : ""
+  CLANG_SOURCE : "https://github.com/llvm/llvm-project.git"
+  CLANG_BRANCH : "release/19.x"
 
   GCC_GNU : true
   GCC_64_SOURCE : "https://github.com/JackA1ltman/Google-GCC-Android-4.9.git"
