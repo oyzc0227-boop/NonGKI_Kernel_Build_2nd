@@ -19,10 +19,10 @@ env:
   CLANG_BRANCH : ""
 
   GCC_GNU : true
-  GCC_64_SOURCE : "https://github.com/JackA1ltman/Google-GCC-Android-4.9.git"
-  GCC_64_BRANCH : "aarch64"
-  GCC_32_SOURCE : "https://github.com/JackA1ltman/Google-GCC-Android-4.9.git"
-  GCC_32_BRANCH : "arm32"
+  GCC_64_SOURCE : "https://github.com/kdrag0n/aarch64-elf-gcc"
+  GCC_64_BRANCH : "9.x"
+  GCC_32_SOURCE : "https://github.com/kdrag0n/arm-eabi-gcc"
+  GCC_32_BRANCH : "9.x"
 
   DEFCONFIG_SOURCE: ""
   DEFCONFIG_NAME : "merlin_defconfig"
