@@ -15,7 +15,7 @@ env:
   KERNEL_SOURCE : "https://github.com/MiCode/Xiaomi_Kernel_OpenSource.git"
   KERNEL_BRANCH : "merlin-r-oss"
 
-  CLANG_SOURCE : "https://release-assets.githubusercontent.com/github-production-release-asset/75821432/29406aa1-c3cc-4208-b10b-97692daae1f5?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-03-31T17%3A44%3A43Z&rscd=attachment%3B+filename%3DLLVM-19.1.0-Linux-X64.tar.xz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-03-31T16%3A43%3A47Z&ske=2026-03-31T17%3A44%3A43Z&sks=b&skv=2018-11-09&sig=VVtqznMH48VUS46iltex1VUs4r5%2FbFAM91o%2BfPCQJNs%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NDk3OTAyNywibmJmIjoxNzc0OTc1NDI3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.m-0LUh7v-sxrebN5wIYixSWnZUvmrowMsWr67i0kS3U&response-content-disposition=attachment%3B%20filename%3DLLVM-19.1.0-Linux-X64.tar.xz&response-content-type=application%2Foctet-stream"
+  CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/LLVM-19.1.7-Linux-X64.tar.xz"
   CLANG_BRANCH : ""
 
   GCC_GNU : true
