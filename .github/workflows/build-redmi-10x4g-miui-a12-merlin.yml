@@ -10,7 +10,7 @@ env:
   DEVICE_CODENAME : "merlin"
 
   CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu-"
-  EXTRA_CMDS : "ARCH=arm64 LD=ld.lld LLVM=1 LLVM_IAS=1 CONFIG_CC_STACKPROTECTOR_STRONG=n"
+  EXTRA_CMDS : "ARCH=arm64 LD=ld.lld LLVM=1 LLVM_IAS=1"
 
   KERNEL_SOURCE : "https://github.com/oyzc0227-boop/Xiaomi_Kernel_OpenSource.git"
   KERNEL_BRANCH : "merlin-r-oss"
