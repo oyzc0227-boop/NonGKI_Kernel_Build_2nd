@@ -15,14 +15,14 @@ env:
   KERNEL_SOURCE : "https://github.com/oyzc0227-boop/Xiaomi_Kernel_OpenSource.git"
   KERNEL_BRANCH : "merlin-r-oss"
 
-  CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.0/LLVM-20.1.0-Linux-X64.tar.xz"
+  CLANG_SOURCE : "​https://raw.githubusercontent.com/Neutron-Toolchains/antman/main/antman"
   CLANG_BRANCH : ""
 
   GCC_GNU : false
-  GCC_64_SOURCE : "https://github.com/kdrag0n/aarch64-elf-gcc"
-  GCC_64_BRANCH : "9.x"
-  GCC_32_SOURCE : "https://github.com/kdrag0n/arm-eabi-gcc"
-  GCC_32_BRANCH : "9.x"
+  GCC_64_SOURCE : ""
+  GCC_64_BRANCH : ""
+  GCC_32_SOURCE : ""
+  GCC_32_BRANCH : ""
 
   DEFCONFIG_SOURCE: ""
   DEFCONFIG_NAME : "merlin_defconfig"
