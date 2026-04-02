@@ -61,20 +61,20 @@ env:
   SUSFS_155_FIXED: "hyperos_a14_fixed" # Fill in your patches here. If there are multiple patches, please separate them with a comma. Leave it blank if there isn't one. -> patch1,patch2 (Only v1.5.5 SuSFS)
   SUSFS_LATEST_FIXED: "" # Fill in your patches here. If there are multiple patches, please separate them with a comma. Leave it blank if there isn't one. -> patch1,patch2
 
-  REKERNEL_ENABLE: "false" # if u need Re:Kernel.
+  REKERNEL_ENABLE: "true" # if u need Re:Kernel.
 
   HOOK_METHOD: "syscall" # manual hook method,can choice : normal, syscall and tracepoint.
   HOOK_OLDER: "false" # contain backport older patch and syscall older patch.
 
-  KPM_ENABLE: "false" # Only use it for SukiSU-Ultra.
-  KPM_FIX: "false" # Fix Error When Enabling KPM.
+  KPM_ENABLE: "true" # Only use it for SukiSU-Ultra.
+  KPM_FIX: "true" # Fix Error When Enabling KPM.
   KPM_PATCH_SOURCE: "https://raw.githubusercontent.com/SukiSU-Ultra/SukiSU_patch/refs/heads/main/kpm/patch_linux" # patch exec file source -> raw.githubusercontent.com/Test/Test/patch .
 
   GENERATE_DTB: "false" # if u kernel need DTB , but cannot auto generate it. (Only Anykernel3).
   GENERATE_CHIP: "qcom" # only supported for qcom and mediatek.
 
-  BUILD_DEBUGGER: "false" # Output build errors.
-  SKIP_PATCH: "false" # Ignore errors found in Patch Debugger.
+  BUILD_DEBUGGER: "true" # Output build errors.
+  SKIP_PATCH: "true" # Ignore errors found in Patch Debugger.
 
   BUILD_OTHER_CONFIG: "false" # Merge config files.
   MERGE_CONFIG_FILES: "vendor/debugfs.config,vendor/renoir_QGKI.config"
@@ -83,7 +83,7 @@ env:
 
 jobs:
   build-kernel:
-    name: Xiaomi 11  Lite (HyperOS A14)
+    name: Xiaomi 11 Lite (HyperOS A14)
     runs-on: ubuntu-latest # u can changed to ubuntu 22.04, and need container set ubuntu-latest
     # container: archlinux/archlinux:latest # if u need use arch linux -> archlinux/archlinux:latest or ubuntu 20.04 -> ubuntu:focal
     env:
