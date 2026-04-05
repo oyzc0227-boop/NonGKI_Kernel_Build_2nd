@@ -12,7 +12,7 @@ env:
   CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu-"
   EXTRA_CMDS : "LD=ld.lld LLVM=1 LLVM_IAS=1"
 
-  KERNEL_SOURCE : "https://github.com/daimile2/hyperos-kernel-for-renoir.git"
+  KERNEL_SOURCE : "https://github.com/oyzc0227-boop/hyperos-kernel-for-renoir.git"
   KERNEL_BRANCH : "miui-t-hyperos"
 
   CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.2/LLVM-22.1.2-Linux-X64.tar.xz"
