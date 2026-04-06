@@ -15,22 +15,22 @@ env:
   KERNEL_SOURCE : "https://github.com/oyzc0227-boop/Xiaomi_Kernel_OpenSource.git"
   KERNEL_BRANCH : "merlin-r-oss"
 
-  CLANG_SOURCE : "https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b.git"
-  CLANG_BRANCH : "lineage-20.0"
+  CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.2/LLVM-22.1.2-Linux-X64.tar.xz"
+  CLANG_BRANCH : ""
 
   GCC_GNU : false
-  GCC_64_SOURCE : "https://github.com/JackA1ltman/Google-GCC-Android-4.9.git"
-  GCC_64_BRANCH : "aarch64"
-  GCC_32_SOURCE : "https://github.com/JackA1ltman/Google-GCC-Android-4.9.git"
-  GCC_32_BRANCH : "arm32"
+  GCC_64_SOURCE : ""
+  GCC_64_BRANCH : ""
+  GCC_32_SOURCE : ""
+  GCC_32_BRANCH : ""
 
   DEFCONFIG_SOURCE: ""
   DEFCONFIG_NAME : "merlin_defconfig"
   DEFCONFIG_ORIGIN_IMAGE: ""
   DEFCONFIG_FROM_BOOT: false
 
-  KERNELSU_SOURCE : "https://github.com/SukiSU-Ultra/SukiSU-Ultra.git"
-  KERNELSU_BRANCH : "susfs_features"
+  KERNELSU_SOURCE : ""
+  KERNELSU_BRANCH : ""
 
   KERNELSU_AUTO_GET : "true" # if u want easy setting kernelsu, u can true.
   KERNELSU_AUTO_FORK : "sukisu" # magic, rsuntk, next, resukisu and sukisu
@@ -61,7 +61,7 @@ env:
   SUSFS_FOLDER_FIXED: "10x4g_miui" # Fill in your patch prefix directory here. Leave it blank if there isn't one. -> your_folder
   SUSFS_PATCH_FIXED: "susfs_155_fixed" # Fill in your patches here. If there are multiple patches, please separate them with a comma. Leave it blank if there isn't one. -> patch1,patch2
 
-  REKERNEL_ENABLE: "true" # if u need Re:Kernel.
+  REKERNEL_ENABLE: "false" # if u need Re:Kernel.
 
   HOOK_METHOD: "syscall" # Manual hook method -> syscall.
   HOOK_OLDER: "true" # contain backport older patch and syscall older patch.
