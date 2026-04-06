@@ -10,15 +10,15 @@ env:
   DEVICE_CODENAME : "merlin"
 
   CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu-"
-  EXTRA_CMDS : "ARCH=arm64 LLVM=1 LLVM_IAS=1 CROSS_COMPILE=aarch64-linux-gnu- CC=clang"
+  EXTRA_CMDS : "ARCH=arm64 LLVM=1 LLVM_IAS=1 CC=clang"
 
   KERNEL_SOURCE : "https://github.com/oyzc0227-boop/Xiaomi_Kernel_OpenSource.git"
   KERNEL_BRANCH : "merlin-r-oss"
 
-  CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/LLVM-19.1.7-Linux-X64.tar.xz"
-  CLANG_BRANCH : ""
+  CLANG_SOURCE : "https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b.git"
+  CLANG_BRANCH : "lineage-20.0"
 
-  GCC_GNU : false
+  GCC_GNU : true
   GCC_64_SOURCE : "https://github.com/JackA1ltman/Google-GCC-Android-4.9.git"
   GCC_64_BRANCH : "aarch64"
   GCC_32_SOURCE : "https://github.com/JackA1ltman/Google-GCC-Android-4.9.git"
