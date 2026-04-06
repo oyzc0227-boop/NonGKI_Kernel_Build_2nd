@@ -18,7 +18,7 @@ env:
   CLANG_SOURCE : "https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b.git"
   CLANG_BRANCH : "lineage-20.0"
 
-  GCC_GNU : true
+  GCC_GNU : false
   GCC_64_SOURCE : ""
   GCC_64_BRANCH : ""
   GCC_32_SOURCE : ""
