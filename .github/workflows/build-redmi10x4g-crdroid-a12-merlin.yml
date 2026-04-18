@@ -12,8 +12,8 @@ env:
   CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu-"
   EXTRA_CMDS : "LD=ld.lld LLVM=1 LLVM_IAS=1"
 
-  KERNEL_SOURCE : "https://github.com/crdroidandroid/android_kernel_xiaomi_mt6768.git"
-  KERNEL_BRANCH : "12.0"
+  KERNEL_SOURCE : "https://github.com/vq6oon/android_kernel_xiaomi_mt6768.git"
+  KERNEL_BRANCH : "aurorastellar"
 
   CLANG_SOURCE : "https://github.com/AOSP-12/prebuilts_clang_host_linux-x86_clang-r437112.git"
   CLANG_BRANCH : "12"
@@ -59,7 +59,7 @@ env:
   PATCHES_BRANCH: "mi_kernel" # [your_branch] -> main
 
   SUSFS_FOLDER_FIXED: "10x4g_crd" # Fill in your patch prefix directory here. Leave it blank if there isn't one. -> your_folder
-  SUSFS_PATCH_FIXED: "fixed" # Fill in your patches here. If there are multiple patches, please separate them with a comma. Leave it blank if there isn't one. -> patch1,patch2
+  SUSFS_PATCH_FIXED: "" # Fill in your patches here. If there are multiple patches, please separate them with a comma. Leave it blank if there isn't one. -> patch1,patch2
 
   REKERNEL_ENABLE: "true" # if u need Re:Kernel.
 
