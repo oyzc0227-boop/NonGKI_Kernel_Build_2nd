@@ -15,7 +15,7 @@ env:
   KERNEL_SOURCE : "https://github.com/oyzc0227-boop/android_kernel_xiaomi_mt6768.git"
   KERNEL_BRANCH : "kernel-tree"
 
-  CLANG_SOURCE : "https://github.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r417554"
+  CLANG_SOURCE : "https://github.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r417554.git"
   CLANG_BRANCH : "11.0"
 
   GCC_GNU : false
