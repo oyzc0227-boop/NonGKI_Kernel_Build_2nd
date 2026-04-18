@@ -13,7 +13,7 @@ env:
   EXTRA_CMDS : "LD=ld.lld LLVM=1 LLVM_IAS=1"
 
   KERNEL_SOURCE : "https://github.com/vq6oon/android_kernel_xiaomi_mt6768.git"
-  KERNEL_BRANCH : "aurorastellar"
+  KERNEL_BRANCH : "kernel-tree"
 
   CLANG_SOURCE : "https://github.com/AOSP-12/prebuilts_clang_host_linux-x86_clang-r437112.git"
   CLANG_BRANCH : "12"
