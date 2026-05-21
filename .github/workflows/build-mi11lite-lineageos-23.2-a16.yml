@@ -10,7 +10,7 @@ env:
   DEVICE_CODENAME : "renoir"
 
   CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu-"
-  EXTRA_CMDS : "LD=ld.lld LLVM=1 LLVM_IAS=1"
+  EXTRA_CMDS : "LD=ld.lld LLVM=1 LLVM_IAS=1 KCFLAGS="-Wno-implicit-enum-enum-cast""
 
   KERNEL_SOURCE : "https://github.com/LineageOS/android_kernel_xiaomi_sm8350.git"
   KERNEL_BRANCH : "lineage-23.2"
@@ -59,7 +59,7 @@ env:
   PATCHES_BRANCH: "mi_kernel" # [your_branch] -> main
 
   SUSFS_FOLDER_FIXED: "11lite_los" # Fill in your patch prefix directory here. Leave it blank if there isn't one. -> your_folder
-  SUSFS_PATCH_FIXED: "" # Fill in your patches here. If there are multiple patches, please separate them with a comma. Leave it blank if there isn't one. -> patch1,patch2
+  SUSFS_PATCH_FIXED: "fixed" # Fill in your patches here. If there are multiple patches, please separate them with a comma. Leave it blank if there isn't one. -> patch1,patch2
 
   REKERNEL_ENABLE: "true" # if u need Re:Kernel.
 
@@ -85,7 +85,7 @@ env:
   SKIP_PATCH: "true" # Ignore errors found in Patch Debugger.
 
   BUILD_OTHER_CONFIG: "true" # Merge config files.
-  MERGE_CONFIG_FILES: "vendor/debugfs.config,vendor/lahaina_QGKI.config,vendor/renoir_QGKI.config"
+  MERGE_CONFIG_FILES: "vendor/xiaomi_QGKI.config,vendor/renoir_QGKI.config"
 
   FREE_MORE_SPACE: "false" # if u want get more space, enabled it.
 
