@@ -9,7 +9,7 @@ env:
   DEVICE_CODENAME : "renoir"
 
   CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu-"
-  EXTRA_CMDS : "LD=ld.lld LLVM=1 LLVM_IAS=1 KCFLAGS="-Wno-implicit-enum-enum-cast""
+  EXTRA_CMDS : "LD=ld.lld LLVM=1 LLVM_IAS=1 KCFLAGS=-Wno-implicit-enum-enum-cast"
 
   KERNEL_SOURCE : "https://github.com/LineageOS/android_kernel_xiaomi_sm8350.git"
   KERNEL_BRANCH : "lineage-23.2"
