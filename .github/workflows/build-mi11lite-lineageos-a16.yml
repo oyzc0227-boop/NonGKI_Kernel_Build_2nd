@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
 env:
-  DEVICE_NAME : "Mi 11 Lite"
+  DEVICE_NAME : "Mi_11_Lite"
   DEVICE_CODENAME : "renoir"
 
   CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu-"
@@ -32,7 +32,7 @@ env:
   KERNELSU_BRANCH : "renoir_los23_0524"
 
   KERNELSU_AUTO_GET : "false" # if u want easy setting kernelsu, u can true.
-  KERNELSU_AUTO_FORK : "sukisu" # magic, rsuntk, next, resukisu and sukisu
+  KERNELSU_AUTO_FORK : "" # magic, rsuntk, next, resukisu and sukisu
 
   SUSFS_ENABLE : true
   SUSFS_FIXED : true
