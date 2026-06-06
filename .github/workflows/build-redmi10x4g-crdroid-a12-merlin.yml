@@ -29,7 +29,7 @@ env:
   DEFCONFIG_ORIGIN_IMAGE: ""
   DEFCONFIG_FROM_BOOT: false
 
-  KERNELSU_SOURCE : "https://github.com/oyzc0227-boop/SukiSU-Ultra.git"
+  KERNELSU_SOURCE : "https://raw.githubusercontent.com/oyzc0227-boop/SukiSU-Ultra/main/kernel/setup.sh"
   KERNELSU_BRANCH : "for_merlin_crd12"
 
   KERNELSU_AUTO_GET : "false" # if u want easy setting kernelsu, u can true.
@@ -53,7 +53,7 @@ env:
 
   PACK_METHOD: "Anykernel3" # Anykernel3 need SOURCE and BRANCH, MKBOOTIMG needn't it.
 
-  KERNELSU_METHOD: "manual" # shell, manual and only.
+  KERNELSU_METHOD: "shell" # shell, manual and only.
 
   PATCHES_SOURCE: "oyzc0227-boop/NonGKI_Kernel_Patches" # [your_name]/[your_patch] -> gooder123/NonGKI_Patcher
   PATCHES_BRANCH: "mi_kernel" # [your_branch] -> main
